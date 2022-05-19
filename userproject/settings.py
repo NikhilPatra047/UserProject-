@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-plz7gicv+kq_trw7r3nv2$w0bv64fc&2kplszn+=+vq6g2i7w8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['whispering-peak-92614.herokuapp.com']
 #Just insert the url of the project in production
 
 # Application definition
@@ -122,7 +122,6 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATICFILES_DIRS = os.path.join(BASE_DIR, 'static')
 django_heroku.settings(locals())
-
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
