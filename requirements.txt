@@ -1,4 +1,4 @@
-asgiref @ file:///tmp/build/80754af9/asgiref_1625643473416/work
+
 certifi==2021.10.8
 Django==4.0.4
 django-bootstrap3==21.2
